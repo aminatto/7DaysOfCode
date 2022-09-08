@@ -1,0 +1,41 @@
+html, body {
+  min-height: 100%;
+  background: #17162E;
+  color: rgb(245, 240, 240);
+}
+
+header {
+  text-align: center;
+}
+
+.filmes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
+
+.filmes-item {
+  width: 80%;
+  margin: 20px;
+  background: #1D1C3B;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 0 0.5em black;
+}
+
+.avatar {
+
+}
+
+.avengers {
+
+}
+
+.batman {
+
+}
+
