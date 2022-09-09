@@ -1,3 +1,7 @@
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
 html, body {
   min-height: 100%;
   background: #17162E;
@@ -19,11 +23,30 @@ header {
 }
 
 .filmes-item {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
   width: 80%;
   margin: 20px;
   background: #1D1C3B;
-  padding: 5px;
+  padding: 15px;
   border-radius: 4px;
   box-shadow: 0 0 0.5em black;
+}
+
+.avatar {
+
+}
+
+#avatarPhoto {
+  border-radius: 50%;
+}
+
+.text {
+  width: 50%;
+  text-align: end;
+}
+
+.lorem {
 }
 
